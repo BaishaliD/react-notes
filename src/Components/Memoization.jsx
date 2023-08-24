@@ -5,6 +5,7 @@
  * This means, this value is cached so that it does not have to be recalculated
  * unless the parameters in the dependency array changes
  //? The useMemo Hook only runs when one of its dependencies update.
+ * Remember: useMemo returns a value, not a function. So you cannot call it, but print it directly.
  */
 
 import { useMemo, useState } from "react";
